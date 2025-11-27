@@ -1,13 +1,13 @@
 JavaScript Expression Evaluator
 ===============================
 
-[![npm](https://img.shields.io/npm/v/expr-eval-fork.svg?maxAge=3600)](https://www.npmjs.com/package/expr-eval-fork)
-[![CDNJS version](https://img.shields.io/cdnjs/v/expr-eval-fork.svg?maxAge=3600)](https://cdnjs.com/libraries/expr-eval-fork)
-[![Build Status](https://travis-ci.org/silentmatt/expr-eval-fork.svg?branch=master)](https://travis-ci.org/silentmatt/expr-eval-fork)
+[![npm](https://img.shields.io/npm/v/expr-eval-zzzapps.svg?maxAge=3600)](https://www.npmjs.com/package/expr-eval-zzzapps)
+[![CDNJS version](https://img.shields.io/cdnjs/v/expr-eval-zzzapps.svg?maxAge=3600)](https://cdnjs.com/libraries/expr-eval-zzzapps)
+[![Build Status](https://travis-ci.org/silentmatt/expr-eval-zzzapps.svg?branch=master)](https://travis-ci.org/silentmatt/expr-eval-zzzapps)
 
 > This fork addresses https://github.com/silentmatt/expr-eval/issues/266, security fix has been committed but was never released to NPM
-> Therefore, we publish expr-eval-fork to NPM to work around this issue.
-> If expr-eval ever gets released, raise an issue and we'll deprecate this fork.
+> Therefore, we publish expr-eval-zzzapps to NPM to work around this issue.
+> If expr-eval-zzzapps ever gets released, raise an issue and we'll deprecate this fork.
 
 Description
 -------------------------------------
@@ -23,12 +23,12 @@ directly, or compiled into native JavaScript functions.
 Installation
 -------------------------------------
 
-    npm install expr-eval
+    npm install expr-eval-zzzapps
 
 Basic Usage
 -------------------------------------
 ```js
-    const Parser = require('expr-eval').Parser;
+    const Parser = require('expr-eval-zzzapps').Parser;
 
     const parser = new Parser();
     let expr = parser.parse('2 * x + 1');
