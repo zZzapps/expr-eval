@@ -1,4 +1,4 @@
-import rollupConfig from './rollup.config';
+import rollupConfig from './rollup.config.js';
 import { uglify } from 'rollup-plugin-uglify';
 
 rollupConfig.plugins = [uglify()];

@@ -1,6 +1,7 @@
 {
   "name": "expr-eval-zzzapps",
   "version": "1.0.2",
+  "type": "module",
   "description": "Mathematical expression evaluator fork with exports map, prototype pollution and code injection security fixes",
   "main": "dist/bundle.js",
   "module": "dist/index.mjs",

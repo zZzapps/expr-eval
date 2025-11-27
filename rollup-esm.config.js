@@ -1,4 +1,4 @@
-import rollupConfig from './rollup.config';
+import rollupConfig from './rollup.config.js';
 
 rollupConfig.plugins = [];
 rollupConfig.output.file = 'dist/index.mjs';
